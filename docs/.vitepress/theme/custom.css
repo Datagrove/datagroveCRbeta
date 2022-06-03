@@ -1,0 +1,59 @@
+:root {
+    /* --c-brand: #3D5919; */
+    --c-brand: #588124;
+    /* --c-brand-light: #50751f; */
+    --c-brand-light: #195955;
+}
+
+@media only screen and (max-width: 640px) {
+    .table-wrapper {
+        /* background-color: yellow; */
+        overflow-x: none;
+        width: 100%;
+    }
+
+    table {
+        /* background-color: orange; */
+        /* max-width: 100%; */
+        width: 100%;
+        overflow-x: scroll;
+    }
+/* 
+    th:has(.table-col-two) {
+        background-color: red;
+        max-width: 200px;
+    } */
+
+    .table-col-two {
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    th:nth-child(even) {
+        /* background-color: blue; */
+        /* width: 40%; */
+        padding: 0;
+
+    }
+    /* th {
+        background-color: purple;
+        /* max-width: fit-content; 
+    } */
+    
+    /* th .table-col-two {
+        background-color: pink;
+        max-width: 80%;
+    } */
+    
+    .table-col-one {
+        max-width: 100px;
+        height: auto;
+        /* background-color: pink; */
+    }
+
+    /* .table-col-two {
+        background-color: green;
+        max-width: 100%;
+    } */
+
+}
