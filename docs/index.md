@@ -11,7 +11,7 @@ home: true
 #       toggle:
 #         icon: public/toggle-switch-off-outline
 #         name: Switch to light mode
-heroImage: /DGCR_NT.png
+heroImage: /circle_logo.png
 heroAlt: Logo image
 heroText: Better World Software
 tagline: Software that is good - because it does good.

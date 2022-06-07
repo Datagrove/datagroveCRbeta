@@ -12,8 +12,13 @@ export default defineConfig({
             { text: 'Internships', link: '/jobs/' },
         ],
         sidebar: [
-        ]
+        ],
+        // logo: '/circle_logo.png',
     },
+    head: [
+        ['link', { rel: "icon", href: '../public/favicon.ico' }]
+    ]
+    // favicon: '/favicon.ico',
     // build: {
     //     rollupOptions: {
     //         external: []

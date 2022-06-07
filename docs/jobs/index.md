@@ -1,10 +1,11 @@
 <script setup>
-    import DarkMode from '../components/DarkMode.vue'
+    // import DarkMode from '../components/DarkMode.vue'
 </script>
 
 <DarkMode />
 
-## The DatagroveCR Internship Program
+<div class="container-center">
+<h2>The DatagroveCR Internship Program</h2>
 
 The DatagroveCR Internship Program hires and provides tuition support for university students studying computer science in Costa Rica. 
 
@@ -15,7 +16,7 @@ Hit us up on Twitter, our DMs are open.
 
 _The DatagroveCR internship is currently limited to students who have been accepted to a university Computer Science program in Costa Rica._
 
-## The Internship
+<h2>The Internship</h2>
 
 **Full Stack Intern** - Hourly Pay :dollar:, Equipment :computer:, Tuition Support :mortar_board:
 
@@ -46,3 +47,5 @@ You will also get practice with English, which for better or worse is the trade 
 
 ## Questions?
 Please contact <strong>[Chelsea Dozier, San José Office Manager](mailto:chelsea@glocalade.org)</strong> with any questions or general inquiries.
+
+</div>

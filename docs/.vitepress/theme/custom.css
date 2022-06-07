@@ -1,8 +1,74 @@
-:root {
-    /* --c-brand: #3D5919; */
+/* :root {
+    --c-brand: #3D5919;
     --c-brand: #588124;
-    /* --c-brand-light: #50751f; */
+    --c-brand-light: #50751f;
     --c-brand-light: #195955;
+    --background-color-primary: yellow;
+} */
+  
+.container-center > p, h2, strong, h4 {
+    color: var(--text-primary-color);
+}
+
+/* pages other than homepage, homepage */
+.page, .home {
+    background-color: var(--background-color-primary);
+    /* background-color: red; */
+  
+}
+  
+/* maybe nothing */
+/* .card {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    background-color: var(--background-color-secondary);
+    background-color: red;
+} */
+
+/* .home {
+    background-color: red;
+} */
+
+.nav-link > .item, .nav-link > .item.active, .nav-link > .item:hover {
+    color: var(--c-brand);
+    color: var(--c-black);
+}
+
+header {
+   color: var(--text-primary-color);
+}
+
+.tagline {
+    /* color: var(--text-primary-color); */
+    color: red;
+}
+
+.nav-bar {
+    /* border: 2px solid black; */
+    /* margin: 50px; */
+    /* border: var(--c-brand); */
+}
+
+a {
+    color: var(--c-brand-light);
+}
+
+.nav-link.action > a.item {
+    background-color: var(--c-brand);
+    color: var(--text-color-light);
+    /* border: 3px solid black; */
+    border: none;
+    transition: transform .2s;
+}
+
+.nav-link.action > a.item:hover {
+    transform: scale(1.05);
+    background-color: var(--c-brand);
+    color: var(--text-color-light);
+}
+
+#main-title, .title {
+    color: var(--c-text);
 }
 
 @media only screen and (max-width: 640px) {
@@ -35,16 +101,7 @@
         padding: 0;
 
     }
-    /* th {
-        background-color: purple;
-        /* max-width: fit-content; 
-    } */
-    
-    /* th .table-col-two {
-        background-color: pink;
-        max-width: 80%;
-    } */
-    
+
     .table-col-one {
         max-width: 100px;
         height: auto;
@@ -56,4 +113,41 @@
         max-width: 100%;
     } */
 
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --c-white: #C3C3C3;
+        --c-black: #000000;
+        /* --c-brand-light: #2BAE66FF; */
+        --c-brand-light: #0d98bb;
+        --c-brand: #3D5919;
+        --accent-color: red;
+        --background-color-primary: #f4f2f2;
+        --text-color-light: #ddd;
+        
+        /* --c-brand: #195955; */
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+  
+      --c-white: #15202B;
+      --c-black: #ffffff;
+      --c-brand: #588124;
+      --c-brand-light: #588124;
+      --c-text: #ffffff;
+      --c-text-light: #C3C3C3;
+      --background-color-primary: #15202B;
+      /* --background-color-secondary: #2d2d30; */
+      /* --background-color-secondary: red; */
+      /* --accent-color: #3f3f3f; */
+      --accent-color: #588124;
+      --text-primary-color: #ddd;
+
+
+
+  
+    }
 }
