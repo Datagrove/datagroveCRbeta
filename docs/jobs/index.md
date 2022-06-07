@@ -2,8 +2,6 @@
     // import DarkMode from '../components/DarkMode.vue'
 </script>
 
-<DarkMode />
-
 <div class="container-center">
 <h2>The DatagroveCR Internship Program</h2>
 
